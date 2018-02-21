@@ -1,0 +1,51 @@
+92835471F
+Alvaro
+Casado Molinero
+0
+2
+87654321B
+Carlos
+Del Campon Llano
+0
+2
+12345678A
+Irene
+Fernandez Diaz
+1
+3
+12345678X
+Juan
+pepito grillo
+0
+4
+98765432C
+Lucia
+Montoro Cabrero
+1
+4
+28454829K
+Pilar
+Castro Romanov
+1
+0
+11122233Z
+Pancho
+Garcia Camacho
+0
+4
+77889966J
+Paula
+Ramos
+1
+0
+263748593H
+Pepito
+Carrasco Melon
+0
+2
+60054158G
+Martin
+Rovira Cajal
+0
+3
+-1
