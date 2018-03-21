@@ -1,8 +1,4 @@
-#include <iostream>
-using namespace std;
 #include "correo.h"
-#include <fstream>
-#include <string>
 
 void mostrar(const tListaCorreos &lista){
   if(lista.contador == 0){

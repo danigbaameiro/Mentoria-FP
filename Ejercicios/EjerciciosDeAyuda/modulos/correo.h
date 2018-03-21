@@ -3,6 +3,8 @@
 
 #include <iostream>
 using namespace std;
+#include <fstream>
+#include <string>
 
 // Constante que nos marcará el número máximo de mensajes
 const int MAX = 10;

@@ -37,7 +37,7 @@ int main(){
     opcion = menu();
   }
 
-  cout << "Hasta luego! :D"
+  cout << "Hasta luego! :D";
 
   return 0;
 }
