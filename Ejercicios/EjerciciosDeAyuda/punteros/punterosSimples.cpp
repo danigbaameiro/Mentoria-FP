@@ -20,5 +20,11 @@ int main(){
   cout << "Direccion en memoria: " << &nuevo << endl;
   cout << "Valor en memoria: " << *nuevo << endl;
 
+  cout << "Resto uno al valor en la direccion a la que apunta puntI haciendo: " << endl;
+  *puntI = *puntI - 1;
+
+  cout << "i vale: " << i << endl;
+  cout << "puntI vale: " << *puntI << endl;
+
   return 0;
 }
