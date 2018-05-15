@@ -4,7 +4,6 @@ using namespace std;
 /*********************************************************************
  * Para entender de forma visual abre el gif situado en esta carpeta *
  *********************************************************************/
-
 const int N = 8;
 typedef int tLista[N];
 
