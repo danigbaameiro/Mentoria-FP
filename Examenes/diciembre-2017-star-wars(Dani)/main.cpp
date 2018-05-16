@@ -6,6 +6,11 @@ using namespace std;
 const int POSIB = 5;
 typedef int tEscaneo[POSIB];
 
+/*******************************************
+ * Author: Daniel García Baameiro
+ * Date: inventado para el curso 2017-2018
+ *******************************************/
+
 // Funcion que muestraun menu
 int menu();
 bool opcionPrimera();
@@ -16,9 +21,9 @@ void analizar(char nave, int &dest, int &x, int &chew, int &vacio, int &star);
 
 int main(){
   int opcion = 0;
-  
+
   opcion = menu();
-  
+
   while(opcion != 0){
     switch(opcion){
     case 1:
@@ -83,13 +88,13 @@ bool opcionPrimera(){
   cin >> escaneo;
 
   dim = escaneo.length();
-  
+
   // Se analiza que sea menor de 20
   if(dim > 20){
     cout << "Cadena demasiado grande" << endl;
     ok = false;
   }
-  
+
   // Se hace una busqueda de elementos
 
   else{
@@ -129,7 +134,7 @@ void opcionSegunda(){
   ifstream escaneo;
   char nave;
   int destCont = 0, xCont = 0, chewCont = 0, vacioCont = 0, starCont = 0;
-    
+
   escaneo.open("escaneo.txt");
 
   if(escaneo.is_open()){
@@ -145,7 +150,7 @@ void opcionSegunda(){
     cout << "ERROR: No se ha podido abrir el fichero" << endl;
   }
 }
- 
+
 void mostrar(int dest, int x, int chew, int vacio, int star){
   cout << "---------- Recuento ---------- " << endl;
   cout << "|" << setw(30) << "| " << endl;
@@ -157,7 +162,3 @@ void mostrar(int dest, int x, int chew, int vacio, int star){
   cout << "------------------------------ " << endl;
   cout << endl << endl;
 }
-
-
-
-
