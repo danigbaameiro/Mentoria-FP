@@ -43,6 +43,11 @@ void creacionEntero(){
 
   cout << "La variable a tiene un valor de: " << *a << endl;
   cout << "La variable b tiene un valor de: " << *b << endl;
+
+  // IMPORTANTE: borrar la memoria usada
+
+  delete a;
+  delete b;
 }
 
 void creacionEstructura(){
@@ -54,6 +59,8 @@ void creacionEstructura(){
   cout << "El primer plato de la estructura es: " << puntMenu->primero << endl;
   cout << "El segundo plato de la estructura es: " << puntMenu->segundo << endl;
   cout << "El tercer plato de la estructura es: " << puntMenu->postre <<  endl;
+
+  delete puntMenu;
 }
 
 tMenu nuevo(){
