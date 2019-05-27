@@ -1,0 +1,5 @@
+S030514 Sardina 10.875 8.30
+B892310 Bacalao 5.750 10.50
+T231 Trucha 6.2 18.75
+K4356 Sardina 5.00 5.50
+GA65455 Pescadilla 15.35 9.30

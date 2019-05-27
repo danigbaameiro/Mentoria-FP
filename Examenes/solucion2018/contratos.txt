@@ -1,0 +1,25 @@
+3
+Sanchez Gomez, Juan
+12345678A
+1700
+2
+1
+Docencia en Ingenieria del Software
+7
+Publicacion de articulos y conferencias
+Martin Vazquez, Alberto
+87654321A
+1600
+1
+7
+Publicacion de articulos y conferencias
+Gonzalez Fernandez, Patricia
+32323232B
+1700
+2
+2
+Docencia en Ingenieria de Computadores
+7
+Publicacion de articulos y conferencias
+
+
